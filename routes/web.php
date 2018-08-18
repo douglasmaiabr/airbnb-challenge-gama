@@ -13,6 +13,9 @@
 
 $router->get('/', function () use ($router) {
     return "
+    AIRBNB.DOUGLASMAIA.COM/API
+    <br><br>
+    
     USERS: 
     <br>
     GET ----- /api/users  <br>
