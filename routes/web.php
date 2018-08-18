@@ -12,7 +12,33 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return "
+    USERS: 
+    <br>
+    GET ----- /api/users  <br>
+    POST ---- /api/users <br>
+    PUT ----- /api/users/{id} <br>
+    DELETE -- /api/users/{id} <br>
+    <br><br>
+    
+    PROPERTIES:
+    <br>
+    GET ----- /api/properties  <br>
+    POST ---- /api/properties <br>
+    PUT ----- /api/properties/{id} <br>
+    DELETE -- /api/properties/{id} <br>
+    <br><br>
+    
+    BOOKINGS:
+    <br>
+    GET ----- /api/bookings  <br>
+    POST ---- /api/bookings <br>
+    PUT ----- /api/bookings/{id} <br>
+    DELETE -- /api/bookings/{id} <br>
+    
+    
+    
+    ";
 });
 
 $router->group(['prefix' => 'api'], function () use ($router) {
