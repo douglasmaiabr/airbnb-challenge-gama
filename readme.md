@@ -3,21 +3,21 @@
 API criada para fins educativos. Usada durante o Gama Experience para aperfeiçoar a experiência dos alunos em consumo de API's.
 
 ## Métodos
-- USERS: 
+- USERS:  
 -- GET    ------ /api/users   
 -- POST   ------ /api/users   
 -- PUT    ------ /api/users/{id}   
 -- DELETE ------ /api/users/{id}   
 
 
-- PROPERTIES: 
+- PROPERTIES:  
 -- GET    ------ /api/properties   
 -- POST   ------ /api/properties   
 -- PUT    ------ /api/properties/{id}   
 -- DELETE ------ /api/properties/{id}   
 
 
-- BOOKINGS: 
+- BOOKINGS:  
 -- GET    ------ /api/bookings   
 -- POST   ------ /api/bookings   
 -- PUT    ------ /api/bookings/{id}   
